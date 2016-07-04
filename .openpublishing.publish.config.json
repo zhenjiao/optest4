@@ -1,0 +1,30 @@
+{
+  "build_entry_point": "docs",
+  "need_generate_pdf": false,
+  "need_generate_intellisense": false,
+  "docsets_to_publish": [
+    {
+      "docset_name": "optest40704",
+      "build_source_folder": "optest40704",
+      "build_output_subfolder": "optest40704",
+      "locale": "en-us",
+      "version": 0,
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      }
+    }
+  ],
+  "notification_subscribers": [],
+  "branches_to_filter": [],
+  "skip_source_output_uploading": false,
+  "dependent_repositories": [
+    {
+      "path_to_root": "_themes",
+      "url": "https://github.com/Microsoft/templates.docs.msft",
+      "branch": "master"
+    }
+  ]
+}
